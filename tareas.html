@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Proyecto Js - Tareas</title>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	<link rel="stylesheet" href="css/main.css" id="linkTheme" />
+</head>
+
+<body>
+	<header>
+		<a href="index.html" class="brand">
+			<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
+			
+		</a>
+		<nav>
+			<a href="#" class="menu menu-sm">
+				<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
+			</a>
+
+			<ul class="menu menu-md">
+				<li class="menu-link"><a href="index.html">Home</a></li>
+				<li class="menu-link menu-link--active">
+					<a href="tareas.html">Tareas</a>
+				</li>
+				<li class="menu-link"><a href="contact.html">Contacto</a></li>
+				<li class="menu-link"><a href="admin.html">Login</a></li>
+				<li><button id="theme">Dark Mode</button></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="txt-header">
+			<h2 id="comenzarTareas">Comenza a organizarte el día</h2>
+			<em>Escribe tus tareas de Yoga y Meditación para que no te olvides nada y
+				puedas organizarte mejor.</em>
+
+			<form action="" id="form-tareas">
+				<input type="text" placeholder="Día de la semana" autocomplete="off" id="dia" />
+				<input type="number" placeholder="Inicio (24hs)" autocomplete="off" id="horaInicio" />
+				<input type="number" placeholder="Finalización (24hs)" autocomplete="off" id="horaFinalizacion" />
+				<input type="text" placeholder="Tarea a realizar" autocomplete="off" id="tarea" />
+				<input type="number" placeholder="Codigo" autocomplete="off" id="codigo" />
+
+				<button id="btnSave" class="btn btn-pri">Agendar</button>
+			</form>
+		</div>
+
+		<div id="contenidoTareas" class="txt-header"></div>
+	</main>
+
+	<footer>
+		<p>Derechos reservados Hscaps 2021</p>
+	</footer>
+
+	<!-- script js -->
+	<script src="js/tareas.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryAPP.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Proyecto Js - Login </title>
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+		<link rel="stylesheet" href="css/main.css" id="linkTheme" />
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html" class="brand">
+				<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
+				
+			</a>
+			<nav>
+				<a href="index.html" class="menu menu-sm">
+					<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
+				</a>
+
+				<ul class="menu menu-md">
+					<li class="menu-link "><a href="index.html">Home</a></li>
+					<li class="menu-link"><a href="tareas.html">Tareas</a></li>
+					<li class="menu-link"><a href="contact.html">Contacto</a></li>
+					<li class="menu-link menu-link--active"><a href="admin.html">Login</a></li>
+					<li><button id="theme">Dark Mode</button></li>
+					
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+		
+			
+			<h2 class="st-c">Login</h2>
+			<form action="" class="form-login" id="login">
+				<label for="name">Nombre</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="passLogin">Contraseña</label>
+				<input type="password" id="passLogin" name="passLogin" required>
+				
+			
+				<button type="submit" class="btn btn-pri" onclick="validar(); return false">Enviar</button>
+				<p id="errorLogin"></p>
+			</form>
+		</main>
+
+
+
+
+		</main>
+
+		<footer>
+		
+		<p>Derechos reservados Hscaps 2021</p>
+	
+		</footer>
+
+		<script src="js/main.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jqueryAPP.js"></script>
+	</body>
+</html>
